@@ -10,6 +10,7 @@ import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
 import Avatar from '@mui/joy/Avatar';
 import Cardinner from './asset/cardinner.png'
 import Graph from './asset/graph.svg'
+import Dragdrop from '../../components/Draganddrop/Draganddrop';
 
 const Notification=[
   {
@@ -115,14 +116,14 @@ export default function police() {
         </div>
 
         <div className='rightgraph'>
-          <img src={Graph}/>
+          {/* <img src={Graph}/> */}
         </div>
 
         <div className="rightdown">
 
           <div className='imageupload'>
-           
-        
+           <div className="dad"> <Dragdrop/></div>
+          
 
           </div>
           <div className='notification'>
