@@ -5,6 +5,7 @@ import Img2 from "./asset/card1.png";
 import ArrowCircleRightOutlinedIcon from "@mui/icons-material/ArrowCircleRightOutlined";
 import NavBar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
+import Law from "../Laws/Law";
 import { useNavigate } from "react-router-dom";
 
 const Carddata = [
@@ -35,6 +36,7 @@ export default function Home() {
   const handleClick = () => {
     navigate("/police")
   }
+  
   return (
     <div className="root">
       <NavBar />
